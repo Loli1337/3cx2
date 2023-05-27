@@ -12,7 +12,7 @@ elif {argv[1]} == '1004':
 elif {argv[1]} == '9998':
     telegram_id = '1907961854'
 data = {
-    'chat_id': -1001767516513,
+    'chat_id': '-1001767516513',
     'text': f'{telegram_id}\n{argv[2]}'
 }
 post(url, json=data)
