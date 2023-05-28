@@ -1,4 +1,4 @@
-from requests import post
+from requests import get, post
 from sys import argv
 if argv[1] == '1001':
     telegram_id = '5280692596'
